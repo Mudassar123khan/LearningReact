@@ -4,11 +4,11 @@ import Description from "./Description.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <Title/>
-       <h6>below is a description</h6> 
+       <h6>React Fragment is used</h6> 
       <Description/>
-    </div>
+    </>
   );
 }
 
