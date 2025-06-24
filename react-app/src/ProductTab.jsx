@@ -1,13 +1,13 @@
 import Product from "./Product.jsx";
 
 function ProductTab(){
-    let features=[<li>"Oled display"</li>,<li>high performance</li>];
+    let features=["Oled display","high performance"];
 
     return (
         <>
         <Product title="Phone" features={features}/>
-        <Product title="PC"  />
-        <Product title="Laptop" features={[<li>"intel core 7"</li>,<li>"NVIDIA RTX 3050 graphics card"</li>]}/>
+        <Product title="PC" features={["CPU","GPU"]} />
+        <Product title="Laptop" features={["intel core 7","NVIDIA RTX 3050 graphics card"]}/>
         </>
     );
 }
