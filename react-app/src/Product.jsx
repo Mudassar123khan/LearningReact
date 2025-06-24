@@ -1,8 +1,8 @@
 import "./Product.css"
-function Product(props){
+function Product({title}){
     return (
         <div className="Product">
-        <h2>{props.title}</h2>
+        <h2>{title}</h2>
         <p>Product Description</p>
         </div>
     );
