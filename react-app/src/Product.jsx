@@ -1,7 +1,7 @@
 import "./Product.css"
 function Product({title,features,price}){
     const list=features.map((feature=> <li>{feature}</li>));
-    let styles={backgroundColor:"white"};
+    let styles={backgroundColor:price>40000 ? "white": null};
          return (
         <div className="Product" style={styles}>
         <h2>{title}</h2>
