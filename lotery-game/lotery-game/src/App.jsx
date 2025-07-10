@@ -1,12 +1,13 @@
 import './App.css'
 import LoteryGame from './LoteryGame'
 import Lotery from './Lotery'
+import Form from './Form'
 function App() {
 
 
   return (
     <>
-     <Lotery n={5} winningSum={10}/>
+      <Form/>
     </>
   )
 }
